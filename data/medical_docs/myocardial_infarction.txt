@@ -1,0 +1,18 @@
+Myocardial Infarction
+
+Symptoms:
+- Severe chest pain
+- Sweating
+- Nausea
+- Shortness of breath
+- Pain radiating to left arm
+
+Investigations:
+- ECG
+- Troponin
+- Coronary angiography
+
+Treatment:
+- Aspirin
+- PCI (Stenting)
+- Statins

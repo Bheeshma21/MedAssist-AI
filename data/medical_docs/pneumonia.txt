@@ -1,0 +1,17 @@
+Pneumonia
+
+Symptoms:
+- Fever
+- Productive cough
+- Chest pain
+- Shortness of breath
+- Chills
+
+Investigations:
+- Chest X-ray
+- CBC
+- Sputum culture
+
+Treatment:
+- Antibiotics
+- Oxygen therapy

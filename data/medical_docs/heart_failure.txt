@@ -1,0 +1,33 @@
+Heart Failure
+
+Heart failure is a chronic condition in which the heart cannot pump blood effectively.
+
+Common symptoms:
+- Shortness of breath
+- Orthopnea (difficulty breathing while lying flat)
+- Paroxysmal nocturnal dyspnea
+- Fatigue
+- Reduced exercise tolerance
+- Swelling of legs and ankles
+- Rapid weight gain due to fluid retention
+
+Risk factors:
+- Previous myocardial infarction
+- Hypertension
+- Diabetes mellitus
+- Coronary artery disease
+- Smoking
+- Obesity
+
+Recommended investigations:
+- ECG
+- Echocardiogram
+- BNP blood test
+- Chest X-ray
+- Troponin
+
+Initial treatment:
+- Diuretics
+- ACE inhibitors
+- Beta blockers
+- Lifestyle modification

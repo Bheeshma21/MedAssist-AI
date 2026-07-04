@@ -1,0 +1,679 @@
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+.main .block-container {
+    max-width: 1450px;
+    padding-top: 0.4rem;
+    padding-bottom: 1rem;
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+h1 {
+    margin-bottom: 0 !important;
+}
+
+h2,
+h3,
+h4 {
+    margin-top: .2rem !important;
+    margin-bottom: .2rem !important;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+html,
+body,
+.stApp {
+
+    background: #0E1117 !important;
+
+    color: white !important;
+
+}
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+section[data-testid="stSidebar"] {
+    background: #111827;
+    border-right: 1px solid #2d3748;
+}
+
+section[data-testid="stSidebar"] .block-container {
+    padding-top: 1rem;
+}
+
+section[data-testid="stSidebar"] h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+section[data-testid="stSidebar"] h3 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.stButton>button {
+
+    width: 100%;
+
+    height: 42px;
+
+    border-radius: 14px;
+
+    font-weight: 600;
+
+    transition: .2s ease;
+}
+
+.stButton>button:hover {
+
+    transform: translateY(-1px);
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+}
+
+/* ==========================================================
+   CHAT INPUT
+========================================================== */
+
+.stChatInput {
+
+    position: sticky;
+
+    bottom: 12px;
+
+    z-index: 999;
+
+    margin-top: 8px;
+}
+
+.stChatInput>div {
+
+    border-radius: 30px !important;
+
+    border: 1px solid #404040 !important;
+
+    background: #202123 !important;
+
+    padding: 10px !important;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .25);
+}
+
+.stChatInput textarea {
+
+    font-size: 16px !important;
+}
+
+/* ==========================================================
+   CHAT
+========================================================== */
+
+[data-testid="stChatMessage"] {
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    border-radius: 16px;
+}
+
+[data-testid="stChatMessageContent"] {
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+/* ==========================================================
+   FILE UPLOADER
+========================================================== */
+
+.stFileUploader {
+
+    margin-top: 5px;
+}
+
+.stFileUploader label {
+
+    display: none;
+}
+
+/* ==========================================================
+   INPUTS
+========================================================== */
+
+.stTextInput input {
+
+    border-radius: 12px;
+}
+
+/* ==========================================================
+   METRICS
+========================================================== */
+
+[data-testid="stMetric"] {
+
+    border-radius: 16px;
+
+    padding: 12px;
+
+    background: rgba(255, 255, 255, .03);
+}
+
+/* ==========================================================
+   EXPANDERS
+========================================================== */
+
+.streamlit-expanderHeader {
+
+    font-weight: 600;
+}
+
+/* ==========================================================
+   DIVIDER
+========================================================== */
+
+hr {
+
+    border-color: #30363d;
+}
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #5b5b5b;
+
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: transparent;
+}
+
+/* ==========================================================
+   POPOVER
+========================================================== */
+
+[data-testid="stPopover"] button {
+
+    border-radius: 10px;
+}
+
+/* ==========================================================
+   CHAT LIST BUTTONS
+========================================================== */
+
+section[data-testid="stSidebar"] .stButton>button {
+
+    text-align: left;
+}
+
+/* ==========================================================
+   REMOVE EXTRA SPACING
+========================================================== */
+
+.element-container {
+
+    margin-bottom: .2rem;
+}
+
+.stMarkdown {
+
+    margin-bottom: .2rem;
+}
+
+/* Small Popover */
+
+[data-testid="stPopover"] {
+    width: 220px !important;
+}
+
+[data-testid="stPopover"] .stButton>button {
+    height: 34px !important;
+    font-size: 13px !important;
+}
+
+[data-testid="stPopover"] .stFileUploader {
+    margin-top: 0px !important;
+}
+
+[data-testid="stPopover"] p {
+    margin-bottom: 4px !important;
+}
+
+[data-testid="stPopover"] h1,
+[data-testid="stPopover"] h2,
+[data-testid="stPopover"] h3,
+[data-testid="stPopover"] h4 {
+    margin-bottom: 6px !important;
+}
+
+/* ==============================
+   CHAT INPUT BAR
+============================== */
+
+.stTextInput input {
+
+    height: 52px !important;
+
+    border-radius: 28px !important;
+
+    font-size: 16px !important;
+}
+
+.stButton>button {
+
+    height: 52px !important;
+
+    border-radius: 16px !important;
+}
+
+/* ===============================
+   Chat Input
+================================ */
+
+.stTextInput input {
+
+    height: 52px !important;
+
+    border-radius: 26px !important;
+
+    font-size: 16px !important;
+}
+
+.stButton>button {
+
+    height: 52px !important;
+
+    border-radius: 16px !important;
+}
+
+.stButton {
+
+    margin-top: 2px;
+}
+
+.stTextInput {
+
+    margin-top: 2px;
+}
+
+/* ===============================
+   FINAL SIDEBAR
+================================ */
+
+section[data-testid="stSidebar"] {
+
+    width: 290px !important;
+}
+
+/* ===============================
+   CHAT SPACING
+================================ */
+
+[data-testid="stChatMessage"] {
+
+    margin-bottom: 8px !important;
+
+    padding: 10px !important;
+}
+
+[data-testid="stChatMessageContent"] {
+
+    line-height: 1.6 !important;
+}
+
+/* ===============================
+   CHAT BUTTONS
+================================ */
+
+.stButton>button {
+
+    transition: .15s ease !important;
+}
+
+.stButton>button:hover {
+
+    transform: translateY(-1px);
+}
+
+/* ===============================
+   POPOVER
+================================ */
+
+[data-testid="stPopover"] {
+
+    width: 200px !important;
+}
+
+/* ===============================
+   SEARCH
+================================ */
+
+.stTextInput input {
+
+    box-shadow: none !important;
+}
+
+/* ==========================================================
+   FINAL CHATGPT UI POLISH
+========================================================== */
+
+/* Main content width */
+.main .block-container {
+    max-width: 1400px;
+    padding-top: .4rem;
+}
+
+/* Header buttons */
+.stButton>button {
+    border-radius: 14px !important;
+    height: 44px !important;
+    font-weight: 600 !important;
+}
+
+/* Landing page */
+.landing-title {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.landing-title h1 {
+    font-size: 54px;
+    margin-bottom: 8px;
+}
+
+.landing-title p {
+    color: #9CA3AF;
+    font-size: 19px;
+}
+
+/* Quick cards */
+
+.element-container .stButton>button:disabled {
+
+    background: #1F2937 !important;
+
+    color: white !important;
+
+    border: 1px solid #30363d !important;
+
+    opacity: 1 !important;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+
+    width: 285px !important;
+
+    border-right: 1px solid #30363d;
+}
+
+/* Sidebar chat spacing */
+
+section[data-testid="stSidebar"] .stButton {
+
+    margin-bottom: 4px !important;
+}
+
+/* Search */
+
+.stTextInput input {
+
+    border-radius: 20px !important;
+
+    box-shadow: none !important;
+}
+
+/* Input bar */
+
+.stTextInput input {
+
+    height: 52px !important;
+
+    border-radius: 28px !important;
+}
+
+/* Popover */
+
+[data-testid="stPopover"] {
+
+    width: 210px !important;
+}
+
+/* Chat spacing */
+
+[data-testid="stChatMessage"] {
+
+    margin-bottom: 10px !important;
+}
+
+/* Action buttons */
+
+button[kind="secondary"] {
+
+    border-radius: 12px !important;
+}
+
+/* Footer spacing */
+
+hr {
+
+    margin-top: 10px !important;
+
+    margin-bottom: 10px !important;
+}
+
+/* Three-dot button */
+
+div[data-testid="stPopover"] button {
+    width: 34px !important;
+    min-width: 34px !important;
+    height: 34px !important;
+    border-radius: 8px !important;
+    padding: 0 !important;
+    font-size: 18px !important;
+}
+
+/* ==========================================================
+   FINAL MEDASSIST UI OVERRIDES
+   (KEEP THIS AT THE VERY END)
+========================================================== */
+
+/* ---------- Force dark theme ---------- */
+
+html,
+body,
+.stApp,
+.main {
+    background: #0E1117 !important;
+    color: #FAFAFA !important;
+}
+
+/* ---------- Main content ---------- */
+
+.main .block-container {
+    max-width: 1450px !important;
+    padding-top: .5rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* ---------- Sidebar ---------- */
+
+section[data-testid="stSidebar"] {
+    width: 290px !important;
+    background: #111827 !important;
+    border-right: 1px solid #30363d !important;
+}
+
+section[data-testid="stSidebar"] .block-container {
+    padding-top: 1rem !important;
+}
+
+/* ---------- Search ---------- */
+
+.stTextInput input {
+    height: 50px !important;
+    border-radius: 18px !important;
+    box-shadow: none !important;
+}
+
+/* ---------- Conversation buttons ---------- */
+
+section[data-testid="stSidebar"] .stButton>button {
+
+    height: 46px !important;
+
+    border-radius: 14px !important;
+
+    text-align: left !important;
+
+    font-weight: 500 !important;
+
+    overflow: hidden !important;
+
+    white-space: nowrap !important;
+
+    text-overflow: ellipsis !important;
+}
+
+/* ---------- Three-dot button ---------- */
+
+div[data-testid="stPopover"]>button {
+
+    width: 34px !important;
+
+    min-width: 34px !important;
+
+    height: 34px !important;
+
+    padding: 0 !important;
+
+    border-radius: 8px !important;
+
+    font-size: 18px !important;
+}
+
+/* ---------- Popover ---------- */
+
+div[data-testid="stPopover"] {
+
+    width: 210px !important;
+}
+
+/* ---------- Upload popover ---------- */
+
+div[data-testid="stPopover"] .stButton>button {
+
+    height: 38px !important;
+}
+
+/* ---------- Chat input ---------- */
+
+.stTextInput {
+
+    margin-top: 0 !important;
+}
+
+.stTextInput input {
+
+    height: 54px !important;
+
+    border-radius: 28px !important;
+
+    font-size: 16px !important;
+}
+
+/* ---------- Send button ---------- */
+
+.stButton>button {
+
+    border-radius: 14px !important;
+
+    transition: .15s ease !important;
+}
+
+.stButton>button:hover {
+
+    transform: translateY(-1px);
+}
+
+/* ---------- Chat messages ---------- */
+
+[data-testid="stChatMessage"] {
+
+    padding: 12px !important;
+
+    border-radius: 14px !important;
+
+    margin-bottom: 12px !important;
+}
+
+/* ---------- Feature cards ---------- */
+
+.feature-card button {
+
+    height: 70px !important;
+
+    border-radius: 18px !important;
+
+    background: #1F2937 !important;
+
+    border: 1px solid #374151 !important;
+}
+
+/* ---------- Footer ---------- */
+
+.footer-text {
+
+    text-align: center;
+
+    color: #9CA3AF;
+
+    font-size: 13px;
+
+    margin-top: 14px;
+}
+
+/* ---------- Scrollbar ---------- */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #4B5563;
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: transparent;
+}
